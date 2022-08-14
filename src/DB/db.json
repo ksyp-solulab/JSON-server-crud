@@ -1,11 +1,32 @@
 {
   "users": [
     {
-      "name": "shukla",
+      "name": "user one",
       "email": "utsavchandreshbhai@gmail.com",
       "phone": "7434074078",
       "address": "VIVEKAND-2",
       "id": 1
+    },
+    {
+      "name": "shukla",
+      "email": "utsavchandreshbhai@gmail.com",
+      "phone": "7434074078",
+      "address": "VIVEKAND-2",
+      "id": 2
+    },
+    {
+      "name": "Janak",
+      "email": "Jamesh@Jamesh.co.in",
+      "phone": "7707070707",
+      "address": "Bihar",
+      "id": 4
+    },
+    {
+      "name": "Mayank",
+      "email": "Mayank@bhaic.co",
+      "phone": "77070707070",
+      "address": "MP",
+      "id": 5
     }
   ]
 }

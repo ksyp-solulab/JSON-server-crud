@@ -28,3 +28,33 @@ export const createUsersError = (error) => ({
     type: types.CREATE_USER_ERROR,
     payload: error,
 })
+
+export const deleteUsersStart = (userId) => ({
+    type: types.DELETE_USER_START,
+    payload: userId,
+})
+
+export const deleteUsersSuccess = (userId) => ({
+    type: types.DELETE_USER_SUCCESS,
+    payload: userId,
+})
+
+export const deleteUsersError = (error) => ({
+    type: types.DELETE_USER_ERROR,
+    payload: error,
+})
+
+export const updateUsersStart = (userInfo) => ({
+    type: types.UPDATE_USER_START,
+    payload: userInfo,
+})
+
+export const updateUsersSuccess = () => ({
+    type: types.UPDATE_USER_SUCCESS,
+    
+})
+
+export const updateUsersError = (error) => ({
+    type: types.UPDATE_USER_ERROR,
+    payload: error,
+})
